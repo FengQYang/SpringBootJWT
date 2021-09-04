@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SpringBootJwt
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://127.0.0.1:3306/jwt?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    password: 123456
+    username: root
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.fqy.pojo

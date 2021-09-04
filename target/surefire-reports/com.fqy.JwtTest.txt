@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.fqy.JwtTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.61 s <<< FAILURE! - in com.fqy.JwtTest
+test(com.fqy.JwtTest)  Time elapsed: 0.523 s  <<< ERROR!
+com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on Sun May 09 12:36:50 CST 2021.
+	at com.fqy.JwtTest.test(JwtTest.java:40)
+
